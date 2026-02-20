@@ -32,6 +32,5 @@
   "neopixel.create|block": "NeoPixel en pin %pin|con %numleds|LEDs en %mode",
   "neopixel.hsl|block": "matiz %h|saturación %s|luminosidad %l",
   "neopixel.rgb|block": "R(rojo) %red|G(verde) %green|B(azul) %blue",
-  "neopixel|block": "neopixel",
   "{id:category}Neopixel": "Neopixel BLE"
 }
