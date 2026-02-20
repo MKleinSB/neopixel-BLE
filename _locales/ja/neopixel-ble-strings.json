@@ -29,5 +29,6 @@
   "neopixel.colors|block": "%color",
   "neopixel.HSL.rotateHue|block": "HSL%hsl|の色相を%offset|ずらす",
   "neopixel.HSL.toRGB|block": "HSL%hsl|をRGBに変換",
-  "neopixel.hsl|block": "HSL（色相%hue|彩度%sat|輝度%lum|）"
+  "neopixel.hsl|block": "HSL（色相%h|彩度%s|輝度%l|",
+  "{id:category}Neopixel": "Neopixel BLE"
 }

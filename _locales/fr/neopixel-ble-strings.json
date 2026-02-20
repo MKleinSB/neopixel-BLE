@@ -33,5 +33,5 @@
   "neopixel.hsl|block": "teinte %h|saturation %s|luminosité %l",
   "neopixel.rgb|block": "R %red|G %green|B %blue",
   "neopixel|block": "neopixel",
-  "{id:category}Neopixel": "Neopixel"
+  "{id:category}Neopixel": "Neopixel BLE"
 }
