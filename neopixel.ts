@@ -551,7 +551,7 @@ namespace neopixel {
      * @param l luminosity from 0 to 99
      */
     //% blockId=neopixelHSL block="hue %h|saturation %s|luminosity %l"
-    //% s.defl=100 l.defl=50
+    //% s.defl=99 l.defl=50
     export function hsl(h: number, s: number, l: number): number {
         h = Math.round(h);
         s = Math.round(s);
