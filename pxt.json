@@ -1,6 +1,6 @@
 {
     "name": "neopixel-ble",
-    "version": "0.7.6",
+    "version": "0.7.7",
     "description": "AdaFruit NeoPixel mit Bluetooth Unterstützung.",
     "license": "MIT",
     "dependencies": {
@@ -10,13 +10,14 @@
     "files": [
         "README.md",
         "neopixel.ts",
-        "_locales/ja/neopixel-strings.json",
-        "_locales/de/neopixel-strings.json",
-        "_locales/de/neopixel-jsdoc-strings.json",
-        "_locales/es-ES/neopixel-strings.json",
-        "_locales/fr/neopixel-strings.json",
-        "_locales/fr/neopixel-jsdoc-strings.json",
-        "_locales/zh/neopixel-strings.json"
+        "_locales/ja/neopixel-ble-strings.json",
+        "_locales/de/neopixel-ble-strings.json",
+        "_locales/de/neopixel-ble-jsdoc-strings.json",
+        "_locales/es-ES/neopixel-ble-strings.json",
+        "_locales/es-ES/neopixel-ble-jsdoc-strings.json",
+        "_locales/fr/neopixel-ble-strings.json",
+        "_locales/fr/neopixel-ble-jsdoc-strings.json",
+        "_locales/zh/neopixel-ble-strings.json"
     ],
     "testFiles": [
         "neotest.ts"
