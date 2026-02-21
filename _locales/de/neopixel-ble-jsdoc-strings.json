@@ -6,7 +6,7 @@
   "neopixel.Strip.power": "Schätzt den Stromverbrauch (mA) der Konfiguration",
   "neopixel.Strip.setBrightness": "Setzt die Helligkeit des Streifens. Wird erst bei der nächsten Operation sichtbar.",
   "neopixel.Strip.clear": "Schalte alle NeoPixel aus. Damit die Änderung sichtbar wird, muss anschließend ``anzeigen`` aufgerufen werden.",
-  "neopixel.Strip.easeBrightness": "Aktuelle Farben der NeoPixel je nach Pixelnr. abdunkeln.",
+  "neopixel.Strip.easeBrightness": "Aktuelle Farben der NeoPixel abdunkeln.",
   "neopixel.Strip.length": "Die Anzahl der NeoPixel, die der Treiber verwaltet.",
   "neopixel.Strip.range": "Erstellt einen neuen Treiber für ein Intervall der vom angegebenen Treiber verwalteten NeoPixel.",
   "neopixel.Strip.rotate": "Rotiert die Farben der NeoPixel. Damit die Änderung sichtbar wird, muss anschließend ``anzeigen`` aufgerufen werden.",
