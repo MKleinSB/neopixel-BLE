@@ -23,6 +23,10 @@
         "neotest.ts"
     ],
     "public": true,
+    "targetVersions": {
+        "target": "8.1.11",
+        "targetId": "calliopemini"
+    },
     "supportedTargets": [
         "microbit",
         "calliopemini"

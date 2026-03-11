@@ -188,6 +188,24 @@ namespace neopixel {
             this.setPixelRGB(pixeloffset >> 0, rgb >> 0);
         }
 
+    /**
+    * Returns the RGB values for the given pixel in a strip
+    * @param pixeloffset position of the NeoPixel in the strip
+    */
+        //% blockId=neopixel_get_pixel_rgbcolors block="%strip|get RGB value at pixel %pixel"
+        //% strip.defl=strip
+        //% blockGap=8
+        //% weight=5
+        //% parts="neopixel" advanced=true
+        getPixelColor(pixeloffset: number): number {
+            if (pixeloffset < 0 || pixeloffset >= this._length) return 0;
+            const stride = this._mode === NeoPixelMode.RGBW ? 4 : 3;
+            const red = Math.idiv((this.buf.chunked(stride).get(pixeloffset).toArray(NumberFormat.UInt8LE)[1] * 256), this.brightness)
+            const green = Math.idiv((this.buf.chunked(stride).get(pixeloffset).toArray(NumberFormat.UInt8LE)[0] * 256), this.brightness)
+            const blue = Math.idiv((this.buf.chunked(stride).get(pixeloffset).toArray(NumberFormat.UInt8LE)[2] * 256), this.brightness)
+            return ((red & 0xFF) << 16) | ((green & 0xFF) << 8) | (blue & 0xFF);
+        }
+
         /**
          * Sets the number of pixels in a matrix shaped strip
          * @param width number of pixels in a row
