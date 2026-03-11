@@ -31,7 +31,7 @@
   "neopixel.hsl|block": "HSL-Farbe: Farbwert %h|Sättigung %s|Helligkeit %l",
   "neopixel.Strip.power|block": "%strip|Stromverbrauch (mA)",
   "neopixel.rgb|block": "rot %red|grün %green|blau %blue",
-  "neopixel.getPixelColor | block": "RGBwert an Pixel %pixel",
+  "neopixel.Strip.getPixelColor|block": "RGBwert an Pixel %pixel",
   "neopixel.Strip.setMatrixColor|block": "%strip|setze Matrix Farbe an Position x %x|y %y|auf %rgb=neopixel_colors",
   "neopixel.Strip.setMatrixWidth|block": "%strip|setze Matrix Breite %width",
   "{id:category}Neopixel": "NeoPixel BLE"
