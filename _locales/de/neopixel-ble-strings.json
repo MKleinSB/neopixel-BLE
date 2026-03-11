@@ -19,7 +19,7 @@
   "neopixel.Strip.range|block": "%strip|Intervall von %start|mit %length| NeoPixeln",
   "neopixel.Strip.rotate|block": "%strip|rotiere NeoPixel um %offset",
   "neopixel.Strip.setBrightness|block": "%strip|setze Helligkeit %brightness",
-  "neopixel.Strip.setPixelColor|block": "%strip|setze Farbe von NeoPixel %pixeloffset|auf %rgb=neopixel_colors",
+  "Strip.setPixelColor|block": "%strip|setze Farbe von NeoPixel %pixeloffset|auf %rgb=neopixel_colors",
   "neopixel.Strip.setPixelWhiteLED|block": "%strip|setze weiße LED von NeoPixel %pixeloffset|auf %white",
   "neopixel.Strip.shift|block": "%strip|verschiebe NeoPixel um %offset",
   "neopixel.Strip.showBarGraph|block": "%strip|zeige Balkendiagramm von Wert %value |mit Maximum %high",
