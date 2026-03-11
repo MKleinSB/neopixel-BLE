@@ -16,6 +16,7 @@
   "neopixel.Strip.showBarGraph": "Zeigt den angegebenen Wert in Bezug auf das gegebene Maximum als Balkendiagramm auf allen Neopixeln an.",
   "neopixel.Strip.showRainbow": "Zeigt ein Regenbogenmuster auf allen NeoPixeln an.",
   "neopixel.Strip.show": "Sendet alle Änderungen an die NeoPixel.",
+  "neopixel.strip.getPixelColor|block": "Berechnet den RGBwert eines bestimmteb Pixel. Größte Genauigkeit bei Helligkeit 255",
   "neopixel.Strip.setMatrixWidth": "Legt die Anzahl der Pixel in einer Zeile einer LED-Matrix fest",
   "neopixel.Strip.setMatrixColor": "Stellt die Farbe der LED in einem matrixförmigen Streifen auf einen bestimmten Wert ein (Bereich 0–255 für Rot, Grün, Blau). Um die Änderungen sichtbar zu machen, musst du die Funktion ``anzeigen`` aufrufen.",
   "neopixel.hsl": "Erstellt eine HSL-Farbe",
