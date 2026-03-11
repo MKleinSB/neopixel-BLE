@@ -1,6 +1,6 @@
 {
     "name": "neopixel-ble",
-    "version": "0.7.7",
+    "version": "0.0.1",
     "description": "AdaFruit NeoPixel mit Bluetooth Unterstützung.",
     "license": "MIT",
     "dependencies": {
